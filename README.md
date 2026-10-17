@@ -1,4 +1,4 @@
-# Student Management System
+# Student Record Manager
 
 A React app for managing student records. You can add, view, update, and delete students, which are displayed as cards. This is one of my first React projects, built to practise components, props, and state.
 
