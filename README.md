@@ -13,7 +13,7 @@ A React app for managing student records. You can add, view, update, and delete 
 
 ## Built With
 
-- React 18 (with Vite)
+- React 19 (with Vite)
 - Plain CSS
 
 ## Project Structure
@@ -53,6 +53,16 @@ npm run dev
 ```
 
 Then open the local URL shown in the terminal.
+
+## Deploy to GitHub Pages
+
+The site is built and deployed to GitHub Pages by the workflow in `.github/workflows/deploy.yml`.
+
+1. In the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**.
+2. Push changes to the `master` branch, or manually run the **Deploy to GitHub Pages** workflow from the **Actions** tab.
+3. Once the workflow completes, open https://muhammadkhizer78.github.io/Student-Record-Manager-React/.
+
+The Vite base path is configured for this repository's GitHub Pages URL.
 
 ## Known Limitations
 
